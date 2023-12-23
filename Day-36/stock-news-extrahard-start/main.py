@@ -4,8 +4,8 @@ from datetime import datetime,timedelta
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-api_key1="VPNTRL5YM2PLJTMF"
-api_url1="https://www.alphavantage.co/query"
+api_key1=api_key1
+api_url1=api_url"
 stock_parameters={
     "function":"TIME_SERIES_DAILY",
     "symbol":"TSLA",
@@ -13,8 +13,8 @@ stock_parameters={
 
 }
 
-api_key2="0d9c294818004765ac81b9c0e0c8d457"
-api_url2="https://newsapi.org/v2/everything"
+api_key2=api_key2
+api_url2=api_url2
 today=datetime.now()
 
 iso_yesterday=(today - timedelta(days = 1)).isoformat()
